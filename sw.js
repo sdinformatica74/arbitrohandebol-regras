@@ -1,15 +1,15 @@
 // Service Worker — Regras de Jogo Handebol Indoor
 // SDInformática — Profª Synthia Duarte
 
-const CACHE_NAME = 'handball-arbitro-v19';
+const CACHE_NAME = 'handball-arbitro-v20';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
   './regulamento.pdf',
   './apostila_completa.pdf',
-  './%C3%ADcone-192.png',
-  './%C3%ADcone-512.png'
+  './icone-192.png',
+  './icone-512.png'
 ];
 
 self.addEventListener('install', event => {
